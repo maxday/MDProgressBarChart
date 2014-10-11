@@ -44,7 +44,7 @@ function createRectangle(index, xCoord, yCoord, width, height, id) {
 
 function createLabel(index, xCoord, yCoord, id) {
 	var newText = document.createElementNS("http://www.w3.org/2000/svg", "text");
-	newText.innerHTML= data.labelText[index] + " (" + data.values[index]+ ")";
+	newText.textContent = data.labelText[index] + " (" + data.values[index]+ ")";
 	newText.setAttributeNS(null, "id", "label_" + id);
 	newText.setAttributeNS(null, "fill", data.labelColors[index%data.labelColors.length]);
 	newText.setAttributeNS(null, "font-family", data.labelFont);

@@ -1,6 +1,6 @@
 {
 	"data" : {
-	"values" : [260, 311, 113, 275, 120, 42],
+	"values" : [620, 311, 653, 275, 520, 342],
 	"marginBetweenBars" : 2,
 	"barColors" : ["#1ABC9C", "#3498DB", "#9B59B6", "#34495E", "#F1C40F", "#E74C3C"],
 	"labelColors" : ["#000000"],
